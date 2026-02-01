@@ -6,7 +6,6 @@ const app = express();
 app.use(cors());
 app.use("/images", express.static("images"));
 
-// Mapping for abbreviations
 const abbreviations = {
   ap: "Andhra Pradesh",
   ar: "Arunachal Pradesh",
